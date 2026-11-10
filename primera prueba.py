@@ -1,1 +1,1 @@
-print("que lo ")
+print("que lo que es")
