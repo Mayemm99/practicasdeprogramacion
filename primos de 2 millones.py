@@ -1,8 +1,15 @@
 x=2000000
 y=2
+suma_primos = 0
+
 while y < x:
-    if x % y == 0:
-        x=x/y
+    z=2
+    while z * z <= y:
+        if y % z == 0:
+            break
+        z=z+1
     else:
-        y=y+1
-print(f"el mayor primo que divide a 2 millones es: {y}")  
+        suma_primos = suma_primos + y
+    y=y+1
+
+print("Suma total de primos de 2 millones:", suma_primos)
