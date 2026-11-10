@@ -1,3 +1,4 @@
+
 x=2000000
 y=2
 suma_primos = 0
@@ -11,5 +12,4 @@ while y < x:
     else:
         suma_primos = suma_primos + y
     y=y+1
-
-print("Suma total de primos de 2 millones:", suma_primos)
+print("Suma total primos de 2 millones:", suma_primos)
